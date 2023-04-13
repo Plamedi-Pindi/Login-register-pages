@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="form-img"></div>
+        <div class="form-container">
+            <h1>Logo</h1>
+            <form action="#" onsubmit="formValidation()">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="...@gmail.com" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="********" min="8" max="20" required>
+                <input type="submit"  id="submit" value="Entrar">
+            </form>
+            <div class="form-option">
+                <a href="#">Esqueceu a senha</a>
+                <a href="register.html">Criar conta</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
