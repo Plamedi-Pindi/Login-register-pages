@@ -238,8 +238,8 @@ label {
 
     .login-container {
         flex-direction: column;
-        height: 100vh !important;
-        width: 70%;
+        height: 650px !important;
+        width: 85%;
         padding: 0;
         margin-bottom: 5rem;
     }
